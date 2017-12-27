@@ -1,0 +1,6 @@
+osm2pgsql (0.0.1) xenial; urgency=low
+
+  * Initial package
+
+ -- Kim Nielsen <kgn@biq.dk>  Wed, 27 Dec 2017 09:38:00 +0000
+

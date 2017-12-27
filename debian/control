@@ -1,0 +1,11 @@
+Source: osm2pgsql
+Section: main
+Priority: extra
+Maintainer: Kim Gert Nielsen
+Build-Depends: debhelper (>= 9.0.0),make, cmake, g++, libboost-dev, libboost-system-dev, libboost-filesystem-dev, libexpat1-dev, zlib1g-dev, libbz2-dev, libpq-dev, libgeos-dev, libgeos++-dev, libproj-dev, lua5.2, liblua5.2-dev, git, dh-systemd (>=1.5) | bash
+Standards-Version: 3.9.2
+
+Package: osm2pgsql
+Architecture: amd64
+Depends: ${dist:Depends}
+Description: osm2pgsql
